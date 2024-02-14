@@ -1,1 +1,1 @@
-A fun website for users of all ages to connect together with similar interests. Update Folder.
+A fun website for users of all ages to connect together with similar interests.
