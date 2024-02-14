@@ -21,7 +21,12 @@ from login.views import (
     login_view
 )
 
+from InterestsSearch.views import(
+    InterestSearch_view
+)
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', login_view),
+    path('startInterests/', InterestSearch_view)
 ]
