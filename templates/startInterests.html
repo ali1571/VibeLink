@@ -2,12 +2,22 @@
 
 <link rel="stylesheet" href="{% static 'login_style.css' %}">
 
+<script src="{% static 'startInterests.js' %}"></script>
+
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Overpass+Mono" rel="stylesheet">
 
 <div id="wrapper">
   <div id="lookFor">
     <span>What are you looking for today?</span>
-    <input type="text" placeholder="Interests.." class="input-3" />
+    <div class="autocomplete">
+      <input id="searchInput" type="text" placeholder="Search across 100+ interests.." class="input-3" />
+  </div>
     <button>Go</button>
   </div>
 </div>
+
+
+<script>
+  var interests = ['music', 'education', 'movies']
+  autocomplete(document.getElementById("searchInput"), interests);
+</script>
