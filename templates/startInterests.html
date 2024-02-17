@@ -11,13 +11,33 @@
     <span>What are you looking for today?</span>
     <div class="autocomplete">
       <input id="searchInput" type="text" placeholder="Search across 100+ interests.." class="input-3" />
-  </div>
+    </div>
     <button>Go</button>
   </div>
 </div>
 
 
 <script>
-  var interests = ['music', 'education', 'movies']
+  var interests = [
+  'Art', 'Basketball', 'Cooking', 'Dancing', 'Engineering', 'Fashion', 'Gardening', 'Hiking',
+  'Ice Skating', 'Jazz Music', 'Knitting', 'Linguistics', 'Mountain Biking', 'Nautical History',
+  'Opera', 'Painting', 'Quilting', 'Reading', 'Sculpture', 'Technology', 'Urban Exploration',
+  'Vintage Cars', 'Windsurfing', 'Xylophone Playing', 'Yoga', 'Zoology',
+  'Archery', 'Badminton', 'Camping', 'Drama', 'Equestrianism', 'Fishing', 'Graphic Design',
+  'Home Brewing', 'International Travel', 'Juggling', 'Kite Flying', 'Lacrosse', 'Metalworking',
+  'Numismatics', 'Origami', 'Photography', 'Quiz Competitions', 'Robotics', 'Sailing', 'Sudoku',
+  'Table Tennis', 'Ultimate Frisbee', 'Vegetarian Cooking', 'Whale Watching', 'Xenology',
+  'Yachting', 'Ziplining',
+  'Astrophotography', 'Bird Watching', 'Chess', 'DIY Projects', 'Environmental Conservation',
+  'Fossil Hunting', 'Genealogy', 'Hot Air Ballooning', 'Instrument Making', 'Jazzercise',
+  'Kendo', 'Laser Tag', 'Meteorology', 'Numismatics', 'Orienteering', 'Puzzles', 'Quadcopter Flying',
+  'Rugby', 'Snorkeling', 'Tea Tasting', 'Unicycling', 'Vintage Clothing', 'Wildlife Conservation',
+  'X-ray Photography', 'Youth Mentoring', 'Zumba',
+  'Aquarium Keeping', 'Beekeeping', 'Calligraphy', 'Dodgeball', 'Exotic Pets', 'Falconry',
+  'Gymnastics', 'Horseback Riding', 'Insect Collecting', 'Jewelry Making', 'Karaoke', 'LARPing',
+  'Microbrewing', 'Nature Photography', 'Oceanography', 'Puppetry', 'Quidditch', 'Rock Climbing',
+  'Skydiving', 'Trampolining', 'Underwater Hockey', 'Videography', 'Wine Tasting', 'Yodeling',
+  'Zorbing'
+];
   autocomplete(document.getElementById("searchInput"), interests);
 </script>
