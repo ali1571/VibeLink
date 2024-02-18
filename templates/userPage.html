@@ -1,0 +1,35 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'account.css' %}">
+
+<script src="{% static 'startInterests.js' %}"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Overpass+Mono" rel="stylesheet">
+
+<div id="wrapper">
+
+    <div id="box" class="box">
+        <div class="profilePic">
+            <div class="selectImage">
+                <input id="fileInput" type="file" style="display: none">
+                <img class="camera" src="{% static 'camera.png' %}" onclick="document.getElementById('fileInput').click();">
+                </input>
+            </div>
+            </span>
+
+            <label class="label">Name</label>
+            <input class="input" placeholder="Enter your name.." />
+
+            <label class="label">User Name</label>
+            <input class="input" placeholder="Enter your UserName.." />
+
+            <label class="label">Email</label>
+            <input class="input" placeholder="Enter your Email.." />
+
+            <label class="label">Password</label>
+            <input class="input" type="password" placeholder="Enter your Password.." />
+
+            <button class="btn">Save</button>
+        </div>
+
+    </div>
