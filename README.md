@@ -1,1 +1,1 @@
-A fun website for users of all ages to connect together with similar interests.
+a social application to connect and collab with like-minded individuals.
